@@ -444,4 +444,15 @@ svg {
 }
 .recipe-diary .recipe-diary_text {
   font-size: 1.3333333333vw;
+}
+
+.img-area {
+  margin-bottom: 5vw;
+}
+.img-area .img-area_block {
+  display: flex;
+}
+.img-area .img-area_block .block_img {
+  width: 33.3333333333vw;
+  height: 41.6666666667vw;
 }/*# sourceMappingURL=style.css.map */

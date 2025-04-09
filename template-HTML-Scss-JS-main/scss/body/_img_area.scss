@@ -1,0 +1,13 @@
+@charset "utf-8";
+@use "../common/functions" as *;
+
+.img-area {
+    margin-bottom: vw(60);
+    .img-area_block {
+        display: flex;
+        .block_img {
+            width: vw(400);
+            height: vw(500);
+        }
+    }
+}
