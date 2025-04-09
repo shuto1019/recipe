@@ -455,4 +455,15 @@ svg {
 .img-area .img-area_block .block_img {
   width: 33.3333333333vw;
   height: 41.6666666667vw;
+}
+
+.recipe-list {
+  text-align: center;
+  margin-bottom: 6.6666666667vw;
+}
+.recipe-list .recipe-list_link {
+  padding: 1.75vw 5vw 1.8333333333vw 5vw;
+  border: 1px solid #2B2A27;
+  opacity: 1;
+  font-size: 1.1666666667vw;
 }/*# sourceMappingURL=style.css.map */
