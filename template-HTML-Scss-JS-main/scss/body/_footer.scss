@@ -1,0 +1,10 @@
+@charset "utf-8";
+@use "../common/functions" as *;
+
+.footer {
+    text-align: center;
+    padding-bottom: vw(20);
+    .footer_text {
+        font-size: vw(12);
+    }
+}

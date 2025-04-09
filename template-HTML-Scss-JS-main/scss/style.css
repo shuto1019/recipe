@@ -480,4 +480,12 @@ svg {
   letter-spacing: 0px;
   color: #2B2A27;
   opacity: 1;
+}
+
+.footer {
+  text-align: center;
+  padding-bottom: 1.6666666667vw;
+}
+.footer .footer_text {
+  font-size: 1vw;
 }/*# sourceMappingURL=style.css.map */
