@@ -1,0 +1,16 @@
+@charset "utf-8";
+@use "../common/functions" as *;
+
+.sns-area {
+    display: flex;
+    justify-content: center;
+    gap: vw(20.5);
+    margin-bottom: vw(20.5);
+    .sns-area_link {
+        font-size: vw(12);
+        border-bottom: 1px solid #2B2A27;
+        letter-spacing: 0px;
+        color: #2B2A27;
+        opacity: 1;
+    }
+}

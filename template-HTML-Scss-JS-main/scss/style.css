@@ -466,4 +466,18 @@ svg {
   border: 1px solid #2B2A27;
   opacity: 1;
   font-size: 1.1666666667vw;
+}
+
+.sns-area {
+  display: flex;
+  justify-content: center;
+  gap: 1.7083333333vw;
+  margin-bottom: 1.7083333333vw;
+}
+.sns-area .sns-area_link {
+  font-size: 1vw;
+  border-bottom: 1px solid #2B2A27;
+  letter-spacing: 0px;
+  color: #2B2A27;
+  opacity: 1;
 }/*# sourceMappingURL=style.css.map */
