@@ -1,5 +1,11 @@
 @charset "utf-8";
-
+@use "../common/functions" as *;
 .header {
-  color: yellow;
+  margin-bottom: vw(80);
+  .header_img {
+    width: vw(1200);
+    height: vw(600);
+    object-fit: cover;
+  }
 }
+
