@@ -1,0 +1,15 @@
+@charset "utf-8";
+@use "../common/functions" as *;
+
+.recipe-diary {
+    text-align: center;
+    margin-bottom: vw(85);
+    .recipe-diary_title {
+        font-size: vw(32);
+        font-weight: bold;
+        margin-bottom: vw(23);
+    }
+    .recipe-diary_text {
+        font-size: vw(16);
+    }
+}
