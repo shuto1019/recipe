@@ -1,5 +1,7 @@
 @charset "utf-8";
+@use "../common/variables" as *;
 @use "../common/functions" as *;
+@use "../common/mixins" as *;
 
 .sns-area {
     display: flex;
@@ -12,5 +14,8 @@
         letter-spacing: 0px;
         color: #2B2A27;
         opacity: 1;
+        @include sp(){
+            font-size: vw_sp(12);
+        }
     }
 }

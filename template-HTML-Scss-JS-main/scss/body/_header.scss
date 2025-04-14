@@ -1,11 +1,18 @@
 @charset "utf-8";
+@use "../common/variables" as *;
 @use "../common/functions" as *;
+@use "../common/mixins" as *;
+
 .header {
   margin-bottom: vw(80);
   .header_img {
     width: vw(1200);
     height: vw(600);
     object-fit: cover;
+    @include sp(){
+      width: vw_sp(375);
+      height: vw_sp(600);
+    }
   }
 }
 
