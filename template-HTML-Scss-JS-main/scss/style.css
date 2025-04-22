@@ -423,9 +423,6 @@ svg {
   height: auto;
 }
 
-.header {
-  margin-bottom: 6.6666666667vw;
-}
 .header .header_img {
   width: 100vw;
   height: 50vw;
@@ -441,11 +438,13 @@ svg {
 
 .recipe-diary {
   text-align: center;
-  margin-bottom: 7.0833333333vw;
+  padding-bottom: 7.0833333333vw;
+  padding-top: 6.6666666667vw;
 }
 @media screen and (max-width: 768px) {
   .recipe-diary {
-    margin-bottom: 22.6666666667vw;
+    padding-bottom: 22.6666666667vw;
+    padding-top: 21.3333333333vw;
   }
 }
 .recipe-diary .recipe-diary_title {
@@ -470,14 +469,6 @@ svg {
   }
 }
 
-.img-area {
-  margin-bottom: 5vw;
-}
-@media screen and (max-width: 768px) {
-  .img-area {
-    margin-bottom: 16vw;
-  }
-}
 .img-area .img-area_block {
   display: flex;
 }
@@ -501,7 +492,13 @@ svg {
 
 .recipe-list {
   text-align: center;
-  margin-bottom: 6.6666666667vw;
+  padding-bottom: 6.6666666667vw;
+  padding-top: 5vw;
+}
+@media screen and (max-width: 768px) {
+  .recipe-list {
+    padding-top: 16vw;
+  }
 }
 .recipe-list .recipe-list_item {
   display: flex;
@@ -524,7 +521,6 @@ svg {
   display: flex;
   justify-content: center;
   gap: 1.7083333333vw;
-  margin-bottom: 1.7083333333vw;
 }
 .sns-area .sns-area_link {
   font-size: 1vw;
@@ -541,6 +537,7 @@ svg {
 
 .footer {
   text-align: center;
+  padding-top: 1.7083333333vw;
   padding-bottom: 1.6666666667vw;
 }
 .footer .footer_text {

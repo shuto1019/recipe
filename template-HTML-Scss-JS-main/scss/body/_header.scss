@@ -4,7 +4,6 @@
 @use "../common/mixins" as *;
 
 .header {
-  margin-bottom: vw(80);
   .header_img {
     width: vw(1200);
     height: vw(600);

@@ -4,10 +4,6 @@
 @use "../common/mixins" as *;
 
 .img-area {
-    margin-bottom: vw(60);
-    @include sp(){
-        margin-bottom: vw_sp(60);
-    }
     .img-area_block {
         display: flex;
         @include sp(){

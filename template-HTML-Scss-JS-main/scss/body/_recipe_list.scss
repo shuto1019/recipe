@@ -6,7 +6,11 @@
 
 .recipe-list {
     text-align: center;
-    margin-bottom: vw(80);
+    padding-bottom: vw(80);
+    padding-top: vw(60);
+    @include sp(){
+        padding-top: vw_sp(60);
+    }
     .recipe-list_item {
         display: flex;
         justify-content: center;

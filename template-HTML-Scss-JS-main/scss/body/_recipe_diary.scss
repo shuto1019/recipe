@@ -5,9 +5,11 @@
 
 .recipe-diary {
     text-align: center;
-    margin-bottom: vw(85);
+    padding-bottom: vw(85);
+    padding-top: vw(80);
     @include sp(){
-        margin-bottom: vw_sp(85); 
+        padding-bottom: vw_sp(85); 
+        padding-top: vw_sp(80);
     }
     .recipe-diary_title {
         font-size: vw(32);
